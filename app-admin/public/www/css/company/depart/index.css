@@ -1,0 +1,144 @@
+
+[type='text'] {
+    margin: 0;
+}
+.no-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.no-info p {
+    color: #999;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.button:hover, .button:focus {
+    background-color: #ff8a00;
+}
+
+.add-div {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.add-div .button {
+    margin: 0;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #ff8a00;
+    outline: none;
+}
+.error-alert {
+    padding-top: 20px;
+}
+/*组织架构*/
+.has-info {
+    margin-bottom: 30px;
+}
+.has-info ul {
+    margin: 30px 0 30px 30px;
+}
+.has-info p {
+    font-size: 16px;
+    margin: 0;
+}
+.has-info p .left-icon {
+    color: #fff;
+    background: #ff8a00;
+    height: 20px;
+    line-height: 16px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.has-info p .close-all {
+    font-size: 14px;
+    line-height: 18px;
+}
+.has-info .level-item {
+    position: relative;
+    list-style-type: none;
+    padding: 15px 0;
+    border-bottom: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+}
+.has-info .first-level-box li:first-child {
+    padding-top: 0;
+}
+.has-info .level-item .action {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    font-size: 14px;
+}
+.action a {
+    padding: 0 5px;
+}
+.action .edit,
+.action .first-edit {
+    color: #2ba6cb;
+}
+.action .add {
+    color: #ff8a00;
+}
+.action .delete,
+.action .first-delete {
+    color: #c60f13;
+}
+.line {
+    border-bottom: 1px solid #d9d9d9;
+    width: 30px;
+    display: inline-block;
+    margin-left: -30px;
+}
+/*pop*/
+.content {
+    padding: 20px 30px;
+}
+.content .edit-name {
+    margin-top: 30px;
+}
+.content input {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.text-center {
+    margin-top: 40px;
+}
+.text-center .button {
+    background-color: #ff8a00;
+    width: 100px;
+    font-weight: bold;
+}
+.text-center .close {
+    background: #fff;
+    border: 1px solid #ff8a00;
+    width: 100px;
+    font-weight: bold;
+    padding: 9px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    color: #ff8a00;
+}
+.node-error {
+    text-align: center;
+    color: #c60f13;
+    font-size: 14px;
+    position: absolute;
+    left: 150px;
+}

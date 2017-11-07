@@ -1,0 +1,319 @@
+html {
+    font-size: 16px;
+}
+
+pre,
+.pre {
+    white-space: pre-wrap;
+}
+
+/**
+ * iconfont
+ */
+@font-face {font-family: "iconfont";
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot') format('embedded-opentype'),
+    url('./font/iconfont.woff') format('woff'),
+    url('./font/iconfont.ttf') format('truetype'),
+    url('./font/iconfont.svg') format('svg');
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * logo
+ */
+.top-bar .top-bar-title {
+    padding-left: 43px;
+}
+.top-bar .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 35px;
+}
+
+ /**
+- * dialog
++ * custom record
+  */
+.dialog-footer:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * 垂直居中布局
+ */
+.vertical {
+    font-size: 0;
+}
+.vertical > * {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.vertical > .top {
+    vertical-align: top;
+}
+.vertical > .bottom {
+    vertical-align: bottom;
+}
+.vertical:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * 自定义单/复选择框
+ */
+.custom-checkbox,
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-right: 20px;
+    color: #3e3e3e;
+}
+.custom-checkbox.active,
+.custom-radio.active {
+    color: #eb6101;
+}
+.custom-checkbox.disabled,
+.custom-radio.disabled {
+    cursor: not-allowed;
+}
+.custom-checkbox:focus,
+.custom-radio:focus {
+    color: #3e3e3e;
+}
+.custom-checkbox:hover,
+.custom-radio:hover {
+    color: #eb6101;
+}
+.custom-checkbox.active:focus,
+.custom-radio.active:focus {
+    color: #eb6101;
+}
+.custom-checkbox.disabled:hover,
+.custom-radio.disabled:hover {
+    color: #3e3e3e
+}
+.custom-checkbox > .iconfont,
+.custom-radio > .iconfont {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    line-height: normal;
+    color: #999;
+}
+.custom-checkbox > .iconfont:after {
+    content: '\e60d';
+}
+.custom-checkbox.active > .iconfont:after {
+    content: '\e60e';
+    color: #eb6101;
+}
+.custom-checkbox.disabled > .iconfont:after {
+    content: '\e60e';
+    color: #ccc;
+}
+.custom-radio > .iconfont:after {
+    content: '\e60f';
+}
+.custom-radio.active > .iconfont:after {
+    content: '\e610';
+    color: #eb6101;
+}
+.custom-radio.disabled > .iconfont:after {
+    content: '\e610';
+    color: #ccc;
+}
+
+/**
+ * panel list
+ */
+.panel > .panel-body.list {
+    padding: 0 1rem;
+}
+
+.list .list-side .button {
+    display: block;
+    margin-bottom: .75rem;
+}
+.list .list-side .button:last-child {
+    margin-bottom: 0;
+}
+
+/**
+ * table a
+ */
+table a:not(:first-child) {
+    padding-left: 10px;
+}
+table br ~ a:not(:first-child) {
+    padding-left: 0;
+}
+table a.sort {
+    color: #3e3e3e;
+}
+table a.sort:after {
+    content: '\e619';
+    display: inline-block;
+    padding: 1px 0 0 2px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #888;
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+table a.sort.active,
+table a.sort.active:after,
+table a.sort:hover,
+table a.sort:hover:after {
+    color: #eb6101;
+}
+
+/**
+ * custom record
+ */
+.custom-record {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    padding: 0 20px;
+    margin-left: 10px;
+    line-height: 24px;
+    color: #3e3e3e;
+    background: #f7f7f7;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+.custom-record:focus,
+.custom-record:hover {
+    color: #3e3e3e;
+}
+.custom-record > .arrow {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    margin-top: -5px;
+    border-style: solid;
+    border-width: 5px 10px;
+    border-color: transparent #d9d9d9 transparent transparent;
+}
+.custom-record > .arrow:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    border-style: solid;
+    border-width: 5px 10px;
+    border-color: transparent #f7f7f7 transparent transparent;
+}
+.custom-record:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    margin-top: -5px;
+    border-style: solid;
+    border-width: 5px 8px;
+    border-color: transparent transparent transparent #999;
+}
+
+/**
+ * common font-size
+ */
+.h1 {
+    font-size: 36px;
+}
+.h2 {
+    font-size: 24px;
+}
+.h3 {
+    font-size: 18px;
+}
+.h4 {
+    font-size: 16px;
+}
+.h5 {
+    font-size: 14px;
+}
+.h6 {
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+/**
+ * 文字颜色
+ */
+.text-theme,
+.text-theme:hover,
+.text-theme:focus {
+    color: #eb6101;
+}
+
+.text-light,
+.text-light:hover,
+.text-light:focus {
+    color: #999;
+}
+
+.text-alert,
+.text-alert:hover,
+.text-alert:focus {
+    color: #ec5840;
+}
+
+/**
+ * no-data
+ */
+.empty-data {
+    padding: 60px 0;
+    text-align: center;
+    color: #999;
+}
+.empty-data:before {
+    content: '\e637';
+    font-size: 32px;
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.empty-data:after {
+    content: attr(data-empty-prompt);
+    display: block;
+    font-size: 14px;
+}
+
+/**
+ * button hollow 去 hover 效果
+ */
+.button.hollow:focus,
+.button.hollow:hover {
+    color: #eb6101;
+    border-color: #eb6101;
+}

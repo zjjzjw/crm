@@ -1,0 +1,11 @@
+.reveal {
+    overflow-y: visible;
+}
+
+.visit-dialog .columns {
+    padding: 0 8px;
+}
+
+.visit-dialog .input-group select {
+    margin-bottom: 0;
+}

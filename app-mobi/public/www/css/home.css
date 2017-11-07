@@ -1,0 +1,46 @@
+.content-wrap {
+    width: 1025px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.company-info {
+    margin: 0 20px 20px 20px;
+}
+.info-item {
+    width: 490px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.info-item img {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.right-top {
+    border-left: 1px solid #d9d9d9;
+    margin-left: -5px;
+}
+.bottom-line {
+    border-top: 1px solid #d9d9d9;
+}
+.right-bottom {
+    border-left: 1px solid #d9d9d9;
+    margin-left: -5px;
+}
+.info-box {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 253px;
+}
+.info-box h4 {
+    font-size: 20px;
+    color: #686868;
+    font-weight: bold;
+}
+.detail-info {
+    font-size: 16px;
+    text-align: right;
+    color: #686868;
+}

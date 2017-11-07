@@ -1,0 +1,130 @@
+
+[type='text'] {
+    margin: 0;
+}
+
+.wrap-content {
+    padding-top: 100px;
+    border: 1px solid #d9d9d9;
+    min-height: 900px;
+}
+
+.wrap-content .content {
+    width: 800px
+}
+
+.wrap-content .text-right {
+    line-height: 36px;
+    font-size: 15px;
+}
+
+.wrap-content .small-3 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.button:hover, .button:focus {
+    background-color: #ff8a00;
+}
+
+.small-width {
+    border-radius: 5px;
+    background-color: #ff8a00;
+    width: 100px;
+    outline: none;
+}
+
+.wrap-content .text-center {
+    margin-top: 20px;
+}
+
+.small-18 {
+    min-height: 70px;
+}
+
+input[type='password'] {
+    margin: 0;
+}
+
+.permission {
+    display: inline-block;
+}
+.depart {
+    border: 1px solid #d9d9d9;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.content {
+    padding: 20px;
+}
+.content .title {
+    font-size: 18px;
+}
+.bottom-center {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    width: 100%;
+}
+.bottom-center input {
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+}
+.bottom-center .save {
+    background: #ff8a00;
+    color: #fff;
+    margin-right: 10px;
+}
+.bottom-center .close {
+    color: #ff8a00;
+    background: #fff;
+    border: 1px solid #ff8a00;
+}
+.choose-error {
+    font-size: 16px;
+    color: #c60f13;
+}
+.depart-box {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #d9d9d9;
+}
+.depart-box .first-level {
+    padding: 10px;
+    max-height: 430px;
+    overflow-y: scroll;
+}
+.depart-box li {
+    list-style-type:none;
+}
+.depart-box .left-icon {
+    color: #fff;
+    background: #ff8a00;
+    height: 14px;
+    line-height: 12px;
+    width: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.depart-box label {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: text-top;
+    margin-top: -2px;
+}
+.depart-box input {
+    display: inline-block;
+    margin-left: 5px;
+}

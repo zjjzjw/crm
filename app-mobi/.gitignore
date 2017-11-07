@@ -1,0 +1,5 @@
+public/www-built/
+/vendor
+public/dist
+storage/assets/manifest.json
+dump.rdb

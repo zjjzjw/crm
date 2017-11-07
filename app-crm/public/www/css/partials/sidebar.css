@@ -1,0 +1,40 @@
+.sidebar {
+    width: 200px;
+    float: left;
+}
+
+.div-menu {
+    width: 100%;
+    background-color: #fafafa;
+    min-height: 1000px;
+}
+
+.div-menu .menu-top-blank {
+
+    height: 10px;
+    clear: both;
+}
+
+.div-menu .menu {
+    text-align: center;
+}
+
+.div-menu .menu a {
+    color: #999999;
+}
+
+.div-menu .menu a:hover {
+    color: #ff8a00;
+}
+
+.div-menu .menu li:hover {
+    background-color: #ffffff;
+}
+
+.div-menu .menu-li {
+    background-color: #ffffff;
+}
+
+.div-menu .menu-li a {
+    color: #ff8a00;
+}

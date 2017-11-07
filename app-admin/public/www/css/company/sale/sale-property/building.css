@@ -1,0 +1,29 @@
+@import "../../../common/prompt-pop.css";
+@import "../../../common/loading-pop.css";
+.unit input {
+    width: 85%;
+    display: inline-block;
+}
+
+.unit em {
+    font-style: normal;
+    display: inline-block;
+    font-size: 15px;
+    color: #0a0a0a;
+    padding-left: 5px;
+}
+
+.content textarea {
+    height: 110px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.textarea {
+    height:auto;
+    overflow: hidden;
+}
+input[name="architecture_covered"] + em + span{
+    display: block;
+    margin-top: 0.5px;
+}

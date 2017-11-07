@@ -1,0 +1,28 @@
+.content-wrap {
+    width: 1025px;
+    margin: 0 auto;
+}
+.content-wrap span {
+    font-size: 20px;
+    color: #fff;
+    background-color: #f78930;
+    padding: 5px 10px;
+}
+.product-item {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 6px;
+}
+.product-item .detail-info {
+    padding: 5px 0 15px 10px;
+    font-size: 18px;
+    color: #f78930;
+}
+.product-item p {
+    padding-left: 20px;
+    font-size: 18px;
+    color: #686868;
+}
+.product-item .detail-title {
+    padding-top: 25px;
+}

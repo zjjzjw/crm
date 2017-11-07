@@ -1,0 +1,21 @@
+@import url("./../component/fuzzyQuery.chosen.css");
+@import url("./modules/visitTaskDialog.css");
+@import url("./../partials/callUp.css");
+
+.info p {
+    margin-bottom: 4px;
+}
+
+.list-wrapper {
+    margin-top: 10px;
+}
+.list-wrapper > p {
+    margin-bottom: 0;
+}
+.list-wrapper > hr {
+    margin: 0;
+}
+
+.list-wrapper .list-content {
+    margin-right: 220px;
+}

@@ -1,0 +1,6 @@
+@import url("../../partials/customerMessage.css");
+
+.panel label.text-right,
+.panel span {
+    color: #8E8A8A;
+}

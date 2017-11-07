@@ -1,0 +1,205 @@
+.image-title a {
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #F7F7F7;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin-right: -1px;
+    cursor: pointer;
+}
+.image-title a:hover {
+    background-color: #eee;
+}
+.image-title a.cur-title:hover {
+     background-color: #fff;
+ }
+.image-title .title3-width {
+    width: 33.33%;
+}
+.image-title .title2-width {
+    width: 50%;
+}
+.image-title .title1-width {
+    width: 100%;
+}
+.image-title .first-title {
+    border-left: 0;
+}
+.image-title .last-title{
+    margin-left: 1px;
+}
+.image-title .cur-title {
+    background-color: #fff;
+    border-bottom: 0;
+}
+
+.image-wrapper {
+    padding: 19px 119px;
+    margin-bottom: 6px;
+}
+.image-tab {
+    display: none;
+    width: 590px;
+}
+.cur-tab {
+    display: block;
+}
+.image-tab .view {
+    position: relative;
+    width: 590px;
+    overflow: hidden;
+}
+.image-tab .slide-box {
+    transform: translateZ(0);
+    position: relative;
+    font-size: 0;
+    width: 0;
+}
+.image-tab .slide-box li,
+.image-tab .slide-box img {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.image-wrapper .big-image-box, .image-wrapper .thumb-box {
+    position: relative;
+}
+.image-wrapper .prev-arrow, .image-wrapper .next-arrow {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    cursor: pointer;
+}
+.image-wrapper .prev-arrow, .image-wrapper .prev-arrow i {
+    left: 0;
+}
+.image-wrapper .next-arrow, .image-wrapper .next-arrow i {
+    right: 0;
+}
+/*大图*/
+.image-wrapper .big-image-box {
+    margin-bottom: 10px;
+}
+.image-wrapper .big-image-box .slide-box li,
+.image-wrapper .big-image-box .slide-box .big-image {
+    width: 590px;
+    height: 442px;
+}
+.image-wrapper .big-image-box .big-image:hover {
+    cursor: pointer;
+}
+.image-wrapper .big-image-box .prev-arrow,
+.image-wrapper .big-image-box .next-arrow {
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+}
+.image-wrapper .big-image-box i {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 38px;
+    text-align: center;
+    background-color: #000;
+    filter: alpha(opacity=40);
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    display: none;
+}
+.image-wrapper .big-image-box .prev-arrow:hover i,
+.image-wrapper .big-image-box .next-arrow:hover i {
+    display: block;
+}
+.image-wrapper .big-image-box .slide-box li {
+    position: relative;
+}
+.image-wrapper .big-image-box .image-tag-bg {
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+
+    background: #000000;
+    background: -moz-linear-gradient(top, transparent 0%,  #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#000000));
+    background: -webkit-linear-gradient(top, transparent 0%,  #000000 100%);
+    background: -o-linear-gradient(top,transparent 0%,  #000000 100%);
+    background: -ms-linear-gradient(top,transparent 0%,  #000000 100%);
+    background: linear-gradient(to bottom,transparent 0%,  #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=0 );
+
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+.image-wrapper .big-image-box .image-tag {
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 580px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 55px;
+
+    text-align: center;
+}
+.image-wrapper .big-image-box .image-tag .image-page {
+    position: absolute;
+    right: 10px;
+}
+.image-wrapper .big-image-box .image-tag .tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: block;
+    padding: 0 5px;
+    height: 22px;
+    line-height: 22px;
+    background-color: #000;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+/*小图*/
+.image-wrapper .thumb-box .slide-box li,
+.image-wrapper .thumb-box .slide-box .thumb-image {
+    width: 50px;
+    height: 38px;
+}
+.image-wrapper .thumb-box .slide-box li {
+    position: relative;
+    padding-right: 10px;
+}
+.image-wrapper .thumb-box .prev-arrow,
+.image-wrapper .thumb-box .next-arrow {
+    width: 20px;
+    height: 20px;
+}
+.image-wrapper .thumb-box i {
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+.image-wrapper .thumb-box .cur-thumb .thumb-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 46px;
+    height: 34px;
+    border: 2px solid #eb6000;
+}

@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "gulp-ufa": "git+ssh://git@git.corp.angejia.com:frontend/gulp-ufa.git"
+  },
+  "devDependencies": {
+    "laravel-elixir": "^1.0.0"
+  },
+  "scripts": {
+    "deploy": "gulp-ufa . -r newboss"
+  }
+}

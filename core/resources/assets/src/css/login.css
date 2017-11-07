@@ -1,0 +1,101 @@
+/* login
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-wrapper {
+    min-height: 100%;
+    background: url(../image/login_bg.jpg) no-repeat center center;
+    background-color: #f8f7f8;
+}
+
+.page-content {
+    background: transparent;
+}
+
+.login-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -230px;
+}
+
+.login-wrapper form {
+    margin: 0 auto;
+    padding: 15px 15px 40px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .95);
+}
+
+.login-wrapper .login-title {
+    padding: 0 40px 22px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-wrapper .login-logo {
+    font-size: 120px;
+    line-height: 70px;
+    text-align: center;
+    color: #eb6101;
+}
+
+.login-wrapper .login-group {
+    height: 50px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    line-height: 50px;
+    border: 1px solid #e7e7eb;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-wrapper .login-group input,
+.login-wrapper .login-group input:focus {
+    margin-bottom: 0;
+    border: none;
+    box-shadow: 0 0 0 999px #fff inset;
+}
+
+.login-wrapper .form-error-meg {
+    padding-left: 5px;
+    line-height: 1;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.login-wrapper .button {
+    width: 100%;
+    background: #eb6101;
+}
+
+.divider.horizontal {
+    display: table;
+    width: 100%;
+    margin: 15px 0 40px;
+}
+
+.divider {
+    line-height: 1;
+}
+
+.divider.horizontal:before, .divider.horizontal:after {
+    display: table-cell;
+    width: 50%;
+    border-width: 1px 0 0 0;
+}
+
+.divider:before, .divider:after {
+    border-color: #667982;
+    content: '';
+    border-style: solid;
+}
+
+.divider.horizontal > .text {
+    display: block;
+    margin: -10px 15px;
+}
+
+.divider > .text {
+    white-space: nowrap;
+    color: #667982;
+}

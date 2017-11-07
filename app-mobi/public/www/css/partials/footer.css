@@ -1,0 +1,31 @@
+.footer {
+    width: 1025px;
+    margin: 0 auto;
+    background:#fff;
+}
+.footer-text {
+    padding: 30px 0;
+    color: #686868;
+    font-size: 18px;
+    margin-left: 375px;
+}
+.footer-text p {
+    line-height: 33px;
+}
+.footer-text em {
+    color: #0084ff;
+    font-style: normal;
+}
+.copyright {
+    text-align: center;
+    color: #686868;
+    font-size: 14px;
+    padding-top: 40px;
+    border-top: 2px solid #f78930;
+}
+.record {
+    text-align: center;
+    color: #686868;
+    font-size: 13px;
+    padding-bottom: 40px;
+}

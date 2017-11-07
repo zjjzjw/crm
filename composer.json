@@ -1,0 +1,95 @@
+{
+    "name": "huifang/chengnuo",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*",
+        "predis/predis": "~1.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "composer/semver": "^1.4",
+        "ramsey/uuid": "2.8.0",
+        "overtrue/laravel-pinyin": "~3.0",
+        "maatwebsite/excel": "~2.0",
+        "qiniu/php-sdk": "7.0.*",
+        "doctrine/dbal": "~2.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1",
+        "barryvdh/laravel-ide-helper": "^2.2"
+    },
+    "autoload": {
+        "classmap": [
+            "core/database"
+        ],
+        "psr-4": {
+            "Huifang\\Web\\Src\\": "app-web/app/Src",
+            "Huifang\\Web\\": "app-web/app",
+            "Huifang\\Crm\\Src\\": "app-crm/app/Src",
+            "Huifang\\Crm\\": "app-crm/app",
+            "Huifang\\Admin\\Src\\": "app-admin/app/Src",
+            "Huifang\\Admin\\": "app-admin/app",
+            "Huifang\\Site\\Src\\": "app-site/app/Src",
+            "Huifang\\Site\\": "app-site/app",
+            "Huifang\\Mobi\\Src\\": "app-mobi/app/Src",
+            "Huifang\\Mobi\\": "app-mobi/app",
+            "Huifang\\Src\\": "core/app/Src/",
+            "Huifang\\": "core/app/"
+        },
+        "files": [
+            "core/app/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Huifang\\": "core/tests/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php app-web/artisan clear-compiled",
+            "php app-crm/artisan clear-compiled",
+            "php app-admin/artisan clear-compiled",
+            "php app-site/artisan clear-compiled",
+            "php app-mobi/artisan clear-compiled",
+            "php core/artisan clear-compiled"
+        ],
+        "pre-update-cmd": [
+            "php app-web/artisan clear-compiled",
+            "php app-crm/artisan clear-compiled",
+            "php app-admin/artisan clear-compiled",
+            "php app-site/artisan clear-compiled",
+            "php app-mobi/artisan clear-compiled",
+            "php core/artisan clear-compiled"
+        ],
+        "post-update-cmd": [
+            "php app-web/artisan clear-compiled",
+            "php app-crm/artisan clear-compiled",
+            "php app-admin/artisan clear-compiled",
+            "php app-site/artisan clear-compiled",
+            "php app-mobi/artisan clear-compiled",
+            "php core/artisan clear-compiled"
+        ],
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\"",
+            "php -r \"symlink('../.env', 'app-web/.env');\"",
+            "php -r \"symlink('../.env', 'app-crm/.env');\"",
+            "php -r \"symlink('../.env', 'app-admin/.env');\"",
+            "php -r \"symlink('../.env', 'app-site/.env');\"",
+            "php -r \"symlink('../.env', 'app-mobi/.env');\"",
+            "php -r \"symlink('../.env', 'core/.env');\""
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

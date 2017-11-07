@@ -1,0 +1,12 @@
+<div class="slide">
+    <div class="view">
+        <ul class="slide-box">
+            <li>
+                <img src="" data-src="">
+            </li>
+        </ul>
+    </div>
+
+    <a href="javascript:void(0);" class="prev-arrow">上一页</a>
+    <a href="javascript:;" class="next-arrow">下一页</a>
+</div>

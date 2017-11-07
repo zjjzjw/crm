@@ -1,0 +1,51 @@
+
+[type='text'] {
+    margin: 0;
+}
+
+.wrap-content {
+    padding-top: 100px;
+    border: 1px solid #d9d9d9;
+    min-height: 900px;
+}
+
+.wrap-content .content {
+    width: 800px
+}
+
+.wrap-content .text-right {
+    line-height: 36px;
+    font-size: 15px;
+}
+
+.wrap-content .small-3 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.button:hover, .button:focus {
+    background-color: #ff8a00;
+}
+
+.small-width {
+    border-radius: 5px;
+    background-color: #ff8a00;
+    width: 100px;
+    outline: none;
+}
+
+.wrap-content .text-center {
+    margin-top: 20px;
+}
+
+.small-18 {
+    min-height: 70px;
+}
+
+input[type='password'] {
+    margin: 0px;
+}
+
+.permission {
+    display: inline-block;
+}

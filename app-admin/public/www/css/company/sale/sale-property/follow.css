@@ -1,0 +1,21 @@
+@import "../../../common/prompt-pop.css";
+@import "../../../common/loading-pop.css";
+.content-style{
+    position: relative;
+}
+.ui-autocomplete {
+    position: absolute;
+    top: 40px;
+    left: 2.5%;
+    cursor: default;
+}
+.content textarea {
+    height: 110px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.textarea {
+    height:auto;
+    overflow: hidden;
+}

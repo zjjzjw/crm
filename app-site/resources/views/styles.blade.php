@@ -1,0 +1,1 @@
+<link href="{!! isset($host) ? $host : ''!!}/css/main.css" rel="stylesheet"/>

@@ -1,0 +1,10 @@
+.content textarea {
+    height: 260px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.textarea {
+    height:auto;
+    overflow: hidden;
+}

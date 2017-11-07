@@ -1,0 +1,21 @@
+{
+  "name": "newboss",
+  "description": "newboss bower",
+  "main": "",
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AUI": "git@git.corp.angejia.com:frontend/ui.git#feature-foundation-bak-v2",
+    "chosen": "~1.6.1",
+    "innerVendors": "git@git.corp.angejia.com:frontend/library.git"
+  }
+}

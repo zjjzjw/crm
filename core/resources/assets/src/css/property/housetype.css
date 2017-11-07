@@ -1,0 +1,14 @@
+@import url("./albumPop.css");
+@import url("../partials/slider.css");
+@import url("../partials/multi-slide.css");
+
+.tag {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.uploadify-item img {
+    border: 1px solid #d9d9d9;
+    width: 200px;
+    height: 200px;
+}

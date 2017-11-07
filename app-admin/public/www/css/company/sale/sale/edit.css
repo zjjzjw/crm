@@ -1,0 +1,118 @@
+
+[type='text'] {
+    margin: 0;
+}
+
+.wrap-content {
+    padding-top: 100px;
+    border: 1px solid #d9d9d9;
+    min-height: 900px;
+}
+
+.wrap-content .content {
+    width: 800px
+}
+
+.wrap-content .text-right {
+    line-height: 36px;
+    font-size: 15px;
+}
+
+.wrap-content .small-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.button:hover, .button:focus {
+    background-color: #ff8a00;
+}
+
+.small-width {
+    border-radius: 5px;
+    background-color: #ff8a00;
+    width: 100px;
+    outline: none;
+}
+
+.wrap-content .text-center {
+    margin-top: 20px;
+}
+
+.small-18 {
+    height: 70px;
+}
+
+.add-parameter {
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 35px;
+}
+
+.add-parameter select {
+    margin: 0;
+}
+
+.add-parameter a {
+    font-size: 38px;
+    color: #F67A33;
+}
+
+.top-close {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    background: #f1f0f0;
+}
+
+.top-close i {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+}
+
+.hint-content {
+    padding-left: 15px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.add-parameter li {
+
+    height: 60px;
+    position: relative;
+}
+
+.add-parameter-btn {
+    position: absolute;
+    right: 10px;
+    top: -15px;
+}
+
+.del-parameter-btn {
+    position: absolute;
+    right: 10px;
+    top: -15px;
+}
+
+.small-9 {
+    height: 70px;
+}
+
+select {
+    margin: 0;
+}
+.show .form-error {
+    display: block;
+    text-align: left;
+    margin-top: 3.5rem;
+}
+
+.small-4{
+    height: 70px;
+}

@@ -1,0 +1,14 @@
+@import url("../../partials/customerMessage.css");
+
+.info {
+    position: relative;
+}
+.info p {
+    margin-bottom: 4px;
+}
+.info .call-wrapper {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    bottom: 50px;
+}

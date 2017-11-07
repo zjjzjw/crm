@@ -1,0 +1,41 @@
+/*编辑*/
+.page {
+    background: #fff;
+}
+.detail-box {
+    background: #fff;
+}
+.detail-box dl div{
+    position: relative;
+}
+.detail-box dl div span{
+    width: 25px;
+    height: 25px;
+}
+.detail-box dl div img{
+    height:25px;
+    width:25px;
+    float: left;
+    position: relative;
+    top:20px;
+    left:35px;
+}
+.detail-box dt {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 10px 20px 5px 5px;
+    width: 75%;
+    float: right;
+}
+.detail-box dd {
+    font-size: 1.6rem;
+    color: #363636;
+    border-bottom: 1px solid #c8c8c8;
+    line-height: 1.6rem;
+    padding: 10px 20px 10px 20%;
+}
+@media(max-device-width:375px){
+    .detail-box dl div img{
+        left:25px;
+    }
+}

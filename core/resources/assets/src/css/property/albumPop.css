@@ -1,0 +1,207 @@
+.album-image-box {
+    position: relative;
+    width: 1200px;
+}
+
+.album-image-box .big-image-box .view {
+    position: absolute;
+    width: 870px;
+    overflow: hidden;
+    margin-top: 35px;
+    margin-left: 63px;
+}
+
+.album-image-box .slide-box {
+    transform: translateZ(0);
+    position: relative;
+    font-size: 0;
+    margin: 0;
+}
+
+.album-image-box .slide-box li,
+.album-image-box .slide-box img {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.big-image {
+    background: none;
+}
+
+.album-image-box .prev-arrow, .album-image-box .next-arrow {
+    position: absolute;
+    top: 20px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.album-image-box .prev-arrow,
+.album-image-box .prev-arrow i {
+    left: 0;
+}
+
+.album-image-box .thumb-box .prev-arrow,
+.album-image-box .thumb-box .prev-arrow i {
+    left: 0;
+}
+
+.album-image-box .next-arrow,
+.album-image-box .next-arrow i {
+    right: 0;
+}
+
+/*大图*/
+.album-image-box .big-image-box {
+    margin-bottom: 10px;
+}
+
+.album-image-box .big-image-box .slide-box li,
+.album-image-box .big-image-box .slide-box .big-image {
+    width: 870px;
+    height: 530px;
+}
+
+.album-image-box .big-image-box .prev-arrow,
+.album-image-box .big-image-box .next-arrow {
+    position: absolute;
+    top: 275px;
+    width: 60px;
+    height: 60px;
+}
+
+.album-image-box .big-image-box .next-arrow {
+    right: 204px;
+}
+
+.album-image-box .big-image-box i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 56px;
+    text-align: center;
+    display: block;
+    color: #999;
+    opacity: 0.5;
+}
+
+.album-image-box .big-image-box .slide-box li {
+    position: relative;
+}
+
+.album-image-box .big-image-box .image-tag {
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 580px;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.album-image-box .big-image-box .image-tag .image-page {
+    position: absolute;
+    right: 10px;
+}
+
+.album-image-box .big-image-box .image-tag .tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: block;
+    padding: 0 5px;
+    height: 22px;
+    line-height: 22px;
+    background-color: #000;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+/*小图*/
+.album-image-box .thumb-box .slide-box li,
+.album-image-box .thumb-box .slide-box .thumb-image {
+    width: 98px;
+    height: 75px;
+}
+
+.album-image-box .thumb-box .slide-box li {
+    position: relative;
+    padding-right: 10px;
+}
+
+.album-image-box .thumb-box .prev-arrow,
+.album-image-box .thumb-box .next-arrow {
+    width: 20px;
+    height: 20px;
+}
+
+.album-image-box .thumb-box i {
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.album-image-box .thumb-box .cur-thumb .thumb-border {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 91px;
+    height: 78px;
+    border: 4px solid #eb6000;
+}
+
+.album-image-box .active .triangle {
+    top: -11px;
+    left: 2px;
+    border-right: 9px solid #fff;
+}
+
+.album-image-box .active .triangle-out {
+    top: 10px;
+    left: -9px;
+    border-right: 9px solid #FF6D4B;
+}
+
+.album-image-box .close-pop {
+    position: absolute;
+    right: 182px;
+    top: -18px;
+    width: 34px;
+    height: 34px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+    background-color: #999;
+    cursor: pointer;
+}
+
+.album-image-box .big-image-box {
+    height: 565px;
+}
+
+.album-image-box .thumb-box .view {
+    margin-left: 63px;
+    width: 870px;
+    overflow: hidden;
+    position: relative;
+}
+
+.album-image-box .thumb-box .tag {
+    width: 100%;
+    margin-top: -19px;
+    text-align: center;
+}

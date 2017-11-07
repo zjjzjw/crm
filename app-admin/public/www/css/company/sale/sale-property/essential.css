@@ -1,0 +1,14 @@
+@import "../../../common/prompt-pop.css";
+@import "../../../common/loading-pop.css";
+.content-style{
+    position: relative;
+}
+.ui-autocomplete {
+    position: absolute;
+    top: 40px;
+    left: 2.5%;
+    cursor: default;
+}
+.content-style-second{
+    position: relative;
+}

@@ -1,0 +1,154 @@
+/*创建*/
+.creat-box {
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+.creat-box p {
+    font-size: 1.6rem;
+    color: #363636;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 10px;
+    border-bottom: 1px solid #c8c8c8;
+    border-radius: 0;
+    position: relative;
+}
+.empty-content{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    color: #ccc;
+    line-height: 5rem;
+}
+.creat-box p span{
+    float: left;
+}
+.creat-box p input{
+    float: right;
+    text-align: right;
+    line-height: inherit;
+    padding-right: 10px;
+}
+.creat-box .city-items,
+.creat-box .province {
+    width: 30%;
+}
+.creat-box span {
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.creat-box input {
+    width: 65%;
+    background: #fff;
+    border: none;
+    margin-left: 1rem;
+    display: inline-block;
+    height: initial;
+}
+.creat-box .first-top {
+    padding-top: 1.5rem;
+}
+.save-box {
+    position: relative;
+}
+.error-tip {
+    position: relative;
+}
+.zvalid-resultformat{
+    position: absolute;
+    left: 36%;
+    font-size: 1.4rem;
+    color: #f30;
+    top: 0;
+    z-index: 100;
+}
+.model-input-error,.price-input-error,
+.common-input-error{
+    font-size: 1.4rem;
+    color: #f30;
+    padding-left: 45%;
+}
+.historybrand-input-error,
+.cooperation-input-error,.bench-input-error,
+.price-error{
+    font-size: 1.4rem;
+    color: #f30;
+    padding-left: 35%;
+}
+.product-group{
+    position: relative;
+}
+.special-input-error{
+    position: relative;
+    font-size: 1.4rem;
+    color: #f30;
+    padding-left: 45%;
+}
+.save-box .save-btn {
+    font-size: 1.8rem;
+    color: #fff;
+    background: #ff8a00;
+    padding: 1rem 0;
+    width: 95%;
+    margin: 3rem 10px;
+    text-align: center;
+    border-radius: .3rem;
+    letter-spacing: 2px;
+    height: auto;
+}
+.add-product,.add-common{
+    border-bottom: 1px solid #c8c8c8;
+}
+.add-product i,.add-common i{
+    display: block;
+    margin: 20px auto 20px;
+    height: 3rem;
+    line-height: 3rem;
+    border:1px solid #ff8a00;
+    background-color: #ffefdc;
+    color: #ff8a00;
+    width: 40%;
+    text-align: center;
+    border-radius: 0.2rem;
+    font-size: 1.8rem;
+}
+#product-move,#common-move{
+    border-bottom: 1px solid #c8c8c8;
+}
+#product-move i,#common-move i{
+    display: block;
+    margin: 20px auto 10px;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #ccc;
+    color: #fff;
+    width: 25%;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding:4px 0;
+    font-size: 1.5rem;
+}
+@media(min-device-width:375px){
+    .creat-box p {
+        height: 5rem;
+        line-height: 5rem;
+    }
+}
+@media(min-device-width:414px){
+    .creat-box p {
+        height: 5.5rem;
+        line-height: 5.5rem;
+    }
+    .save-box .save-btn {
+        padding: 1.5rem 0;
+    }
+    .creat-box .city-items,
+    .creat-box .province {
+        width: 32%;
+    }
+}
